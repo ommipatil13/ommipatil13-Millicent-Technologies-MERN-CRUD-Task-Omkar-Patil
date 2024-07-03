@@ -1,12 +1,14 @@
 import axios from 'axios';
 import React, { useState, useEffect } from 'react';
-import { useParams } from 'react-router-dom';
+import { useNavigate, useParams } from 'react-router-dom';
 
 const Update = () => {
     const { id } = useParams();
     const res = useParams();
     // console.log(res.id)
     // console.log(res)
+
+    const navigate = useNavigate()
 
     const [user, setUser] = useState({
         title: '',
@@ -35,12 +37,19 @@ const Update = () => {
     //update 
     const handleSubmit = async (e) => {
         e.preventDefault();
+
+        const { title, author, published } = user;
+        if (!title || !author || !published) {
+            alert('please enter all details')
+            return
+        }
+
         try {
             const updateUser = await axios.put(`http://localhost:8080/book/${id}`, user)
 
             alert('updated')
             console.log('update data', updateUser.data)
-
+            navigate('/')
 
         } catch (error) {
             console.log(error)
