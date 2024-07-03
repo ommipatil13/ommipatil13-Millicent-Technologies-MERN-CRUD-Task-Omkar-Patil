@@ -5,10 +5,10 @@ import { useNavigate } from 'react-router-dom'
 
 const Create = () => {
 
-    //
+    //use navigate to navigate pages onw to another
     const navigate = useNavigate()
 
-    // useState 
+    // useState to manage state
     const [user, setUser] = useState({
         title: '',
         author: '',
