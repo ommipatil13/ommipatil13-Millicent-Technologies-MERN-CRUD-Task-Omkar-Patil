@@ -11,6 +11,8 @@ function App() {
   return (
     <>
 
+      {/* routing */}
+
       <NavBar />
 
       <Routes>
