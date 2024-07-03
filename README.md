@@ -14,8 +14,10 @@ I have not included the node_modules in this repository so you have to install t
 
 # Step 1:
 For frontend node_modules - <br/>
+```
 cd frontend <br/>
 npm install
+```
 
 # Step 2:
 For backend node_modules - <br/>
