@@ -29,6 +29,7 @@ const Home = () => {
 
     const userSlice = user.slice(0, loadMore);
 
+    //loading 
     const handleLoad = () => {
         setLoading(true)
         setTimeout(() => {
