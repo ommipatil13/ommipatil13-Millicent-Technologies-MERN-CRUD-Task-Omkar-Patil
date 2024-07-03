@@ -3,6 +3,8 @@ import React, { useState, useEffect } from 'react';
 import { useNavigate, useParams } from 'react-router-dom';
 
 const Update = () => {
+
+    //use params to get id 
     const { id } = useParams();
     const res = useParams();
     // console.log(res.id)
