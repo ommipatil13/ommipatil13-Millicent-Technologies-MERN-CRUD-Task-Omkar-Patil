@@ -13,13 +13,13 @@ DataBase: MongoDB
 I have not included the node_modules in this repository so you have to install them.
 
 # Step 1:
-For frontend node_modules -
-cd frontend
+For frontend node_modules - <br/>
+cd frontend <br/>
 npm install
 
 # Step 2:
-For backend node_modules -
-cd backend
+For backend node_modules - <br/>
+cd backend <br/>
 npm install
 
 # Step 3:
@@ -27,13 +27,13 @@ After that you have to put mongoDB connection string link in backend .local.env 
 ## go to - backend > .local.env > MONGO_URL: paste your mongodb link 
 
 # Step 4:
-Now start the backend -
-cd backend
+Now start the backend - <br/>
+cd backend <br/>
 npm run start:dev
 
 # Step 5:
-Now start the frontend -
-cd frontend
+Now start the frontend - <br/>
+cd frontend <br/>
 npm run dev
 
 Now open any browser and go to this link - http://localhost:5173/
