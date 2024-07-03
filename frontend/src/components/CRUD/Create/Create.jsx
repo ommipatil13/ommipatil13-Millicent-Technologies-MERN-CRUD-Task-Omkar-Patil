@@ -22,7 +22,7 @@ const Create = () => {
         console.log(user);
     }
 
-    // api 
+    // use axios to post the data 
     const handleSubmit = async (e) => {
         e.preventDefault();
 
