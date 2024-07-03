@@ -1,8 +1,11 @@
 import React, { useState } from 'react'
 import axios from 'axios'
+import { useNavigate } from 'react-router-dom'
 
 
 const Create = () => {
+
+    const navigate = useNavigate()
 
     // useState 
     const [user, setUser] = useState({
@@ -26,7 +29,7 @@ const Create = () => {
             const res = await axios.post('http://localhost:8080/book', user)
             alert('Created')
             console.log(res.data)
-
+            navigate('/')
         }
 
         catch (error) {
