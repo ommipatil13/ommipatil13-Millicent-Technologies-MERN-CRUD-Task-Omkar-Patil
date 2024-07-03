@@ -12,7 +12,7 @@ There are 2 folders backend and frontend.
 
 I have not included the node_modules in this repository so you have to install them.
 
-#Step 1:
+# Step 1:
 For frontend node_modules -
 cd frontend
 npm install
