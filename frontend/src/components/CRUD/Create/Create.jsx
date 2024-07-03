@@ -25,6 +25,12 @@ const Create = () => {
     const handleSubmit = async (e) => {
         e.preventDefault();
 
+        const { title, author, published } = user;
+        if (!title || !author || !published) {
+            alert('please enter all details')
+            return
+        }
+
         try {
             const res = await axios.post('http://localhost:8080/book', user)
             alert('Created')
