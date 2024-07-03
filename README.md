@@ -1,9 +1,9 @@
-# ommipatil13-Millicent-Technologies-MERN-CRUD-Task-Omkar-Patil
+## ommipatil13-Millicent-Technologies-MERN-CRUD-Task-Omkar-Patil
 
 Tech Stack - React.js , Node.js , NestJs , MongoDB , TailwindCss
 
-Frontend: ReactJs, TailwindCss
-Backend: NestJs
+Frontend: ReactJs, TailwindCss < br / >
+Backend: NestJs < br / >
 DataBase: MongoDB
 
 ## How to set up and run the project
@@ -23,7 +23,7 @@ cd backend
 npm install
 
 # Step 3:
-After that you have to put mongoDB connection string link in backend .local.env file - /
+After that you have to put mongoDB connection string link in backend .local.env file - 
 go to - backend > .local.env > MONGO_URL: paste your mongodb link 
 
 # Step 4:
