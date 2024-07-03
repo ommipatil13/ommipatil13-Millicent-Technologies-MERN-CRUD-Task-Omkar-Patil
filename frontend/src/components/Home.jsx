@@ -9,6 +9,7 @@ const Home = () => {
     const [loadMore, setLoadMore] = useState(4)
     const [loading, setLoading] = useState();
 
+    // fetching all data 
     const fetchData = async () => {
         const res = await axios.get(`http://localhost:8080/book`);
         console.log(res.data);
