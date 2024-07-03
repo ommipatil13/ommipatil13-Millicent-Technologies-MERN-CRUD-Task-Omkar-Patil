@@ -6,9 +6,9 @@ Frontend: ReactJs, TailwindCss
 Backend: NestJs
 DataBase: MongoDB
 
-How to set up and run the project
+## How to set up and run the project
 
-There are 2 folders backend and frontend.
+## There are 2 folders backend and frontend.
 
 I have not included the node_modules in this repository so you have to install them.
 
@@ -23,7 +23,7 @@ cd backend
 npm install
 
 # Step 3:
-After that you have to put mongoDB connection string link in backend .local.env file - 
+After that you have to put mongoDB connection string link in backend .local.env file - /
 go to - backend > .local.env > MONGO_URL: paste your mongodb link 
 
 # Step 4:
