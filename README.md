@@ -2,8 +2,8 @@
 
 Tech Stack - React.js , Node.js , NestJs , MongoDB , TailwindCss
 
-Frontend: ReactJs, TailwindCss < br / >
-Backend: NestJs < br / >
+Frontend: ReactJs, TailwindCss <br>
+Backend: NestJs <br/>
 DataBase: MongoDB
 
 ## How to set up and run the project
