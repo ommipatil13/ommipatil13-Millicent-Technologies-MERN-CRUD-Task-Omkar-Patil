@@ -28,7 +28,7 @@ npm install
 
 # Step 3:
 After that you have to put mongoDB connection string link in backend .local.env file <br/>
-## go to - backend > .local.env > MONGO_URL: paste your mongodb link 
+``` go to - backend > .local.env > MONGO_URL: paste your mongodb link ```
 
 # Step 4:
 Now start the backend - <br/>
