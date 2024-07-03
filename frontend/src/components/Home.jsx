@@ -19,6 +19,7 @@ const Home = () => {
         fetchData()
     }, [])
 
+    // delete operation 
     const handleDelete = async (id) => {
         // console.log(id)
         await axios.delete(`http://localhost:8080/book/${id}`)
