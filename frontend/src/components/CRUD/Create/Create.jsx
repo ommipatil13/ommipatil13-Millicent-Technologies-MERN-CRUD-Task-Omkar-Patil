@@ -35,7 +35,7 @@ const Create = () => {
             const res = await axios.post('http://localhost:8080/book', user)
             alert('Created')
             console.log(res.data)
-            navigate('/')
+            navigate('/home')
         }
 
         catch (error) {

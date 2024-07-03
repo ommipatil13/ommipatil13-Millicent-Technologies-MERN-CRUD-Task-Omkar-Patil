@@ -22,6 +22,8 @@ const Home = () => {
     // delete operation 
     const handleDelete = async (id) => {
         // console.log(id)
+        // let answer = window.prompt('are you sure want to delete ?')
+        // if (!answer) return
         await axios.delete(`http://localhost:8080/book/${id}`)
         fetchData()
         alert('Deleted')

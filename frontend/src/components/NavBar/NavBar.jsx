@@ -10,8 +10,8 @@ const NavBar = () => {
                 <div>Omkar Patil</div>
 
                 <ul className='flex space-x-10'>
-                    <li> <NavLink to={'/'} className='hover:text-zinc-300'>Home</NavLink> </li>
-                    <li> <NavLink to={'/create'} className='hover:text-zinc-300'>Create</NavLink> </li>
+                    <li> <NavLink to={'/home'} className='hover:text-zinc-300'>Home</NavLink> </li>
+                    <li> <NavLink to={'/'} className='hover:text-zinc-300'>Create</NavLink> </li>
                 </ul>
 
                 <div>MERN CRUD</div>

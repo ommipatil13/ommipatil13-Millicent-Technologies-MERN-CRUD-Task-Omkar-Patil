@@ -49,7 +49,7 @@ const Update = () => {
 
             alert('updated')
             console.log('update data', updateUser.data)
-            navigate('/')
+            navigate('/home')
 
         } catch (error) {
             console.log(error)
