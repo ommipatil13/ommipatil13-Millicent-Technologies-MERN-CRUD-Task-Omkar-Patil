@@ -15,14 +15,16 @@ I have not included the node_modules in this repository so you have to install t
 # Step 1:
 For frontend node_modules - <br/>
 ```
-cd frontend <br/>
+cd frontend 
 npm install
 ```
 
 # Step 2:
 For backend node_modules - <br/>
-cd backend <br/>
+```
+cd backend
 npm install
+```
 
 # Step 3:
 After that you have to put mongoDB connection string link in backend .local.env file <br/>
@@ -30,13 +32,17 @@ After that you have to put mongoDB connection string link in backend .local.env 
 
 # Step 4:
 Now start the backend - <br/>
-cd backend <br/>
+```
+cd backend
 npm run start:dev
+```
 
 # Step 5:
 Now start the frontend - <br/>
-cd frontend <br/>
+```
+cd frontend 
 npm run dev
+```
 
 Now open any browser and go to this link - http://localhost:5173/
 
