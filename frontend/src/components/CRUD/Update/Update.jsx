@@ -32,6 +32,7 @@ const Update = () => {
         console.log(user);
     };
 
+    //update 
     const handleSubmit = async (e) => {
         e.preventDefault();
         try {
