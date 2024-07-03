@@ -4,6 +4,7 @@ import axios from 'axios'
 
 const Create = () => {
 
+    // useState 
     const [user, setUser] = useState({
         title: '',
         author: '',
@@ -17,7 +18,7 @@ const Create = () => {
         console.log(user);
     }
 
-
+    // api 
     const handleSubmit = async (e) => {
         e.preventDefault();
 
